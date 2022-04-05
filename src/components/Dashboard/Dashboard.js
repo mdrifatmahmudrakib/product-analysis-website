@@ -42,9 +42,9 @@ const Dashboard = () => {
         }
     ]
     return (
-        <div className='flex'>
+        <div className='flex m-20'>
             <div className='mt-5'>
-                <h1>Product Line Chart</h1>
+                <h1>Month Wise Sell</h1>
 
                 <LineChart
                     width={500}
@@ -68,7 +68,7 @@ const Dashboard = () => {
 
             </div>
             <div className='mt-5'>
-                <h1>Product Bar Chart</h1>
+                <h1>Investment vs Revenue</h1>
                 <div className="m-8">
                     <BarChart className="mx-auto" width={730} height={250} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />

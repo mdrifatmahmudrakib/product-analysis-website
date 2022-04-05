@@ -3,11 +3,11 @@ import React from 'react';
 import img from "../Img/rifat.png";
 const About = () => {
     return (
-        <div className='py-4'>
+        <div className='py-4 mt-6'>
 
             <div className="grid grid-cols-2 px-8">
                 <div className='mt-24 p-3' >
-                    <h1 className='text-6xl font-bold'>Welcome to<br /><span className='text-orange-500'>Rifat Mahmud's World</span></h1>
+                    <h1 className='text-6xl font-bold'>About Developer<br /><span className='text-orange-500'>Rifat Mahmud</span></h1>
 
 
                     <p className='mt-4 text-xl px-12'>I am a Web Developer located in Dhaka, Bangladesh. Working as a Professional Full stack Web

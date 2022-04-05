@@ -44,7 +44,7 @@ const Dashboard = () => {
     return (
         <div className='flex m-20'>
             <div className='mt-5'>
-                <h1>Month Wise Sell</h1>
+                <h1 className='text-2xl font-bold m-4 text-orange-500'>Month Wise Sell</h1>
 
                 <LineChart
                     width={500}
@@ -68,7 +68,7 @@ const Dashboard = () => {
 
             </div>
             <div className='mt-5'>
-                <h1>Investment vs Revenue</h1>
+                <h1 className='text-2xl font-bold m-4 text-orange-500'>Investment vs Revenue</h1>
                 <div className="m-8">
                     <BarChart className="mx-auto" width={730} height={250} data={data}>
                         <CartesianGrid strokeDasharray="3 3" />

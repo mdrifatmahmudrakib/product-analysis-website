@@ -5,11 +5,12 @@ const Review = (props) => {
     return (
         <div>
             <div>
-                <div className='border border-gray-400 m-5 h-60 rounded-3xl'>
+                <div className='border rounded-md m-5 h-60 shadow-2xl'>
                     <div className='m-10'>
-                        <h1 className='text-xl font-bold m-3'>{name}</h1>
-                        <p className='text-sm font-thin'>{review}</p>
-                        <p className='font-bold m-2'>Rating: ( {rating} )</p>
+                        <h2 className='text-lg text-orange-500 m-3 text-left'>{name}</h2>
+                        <h1 className='text-xl text-left'>"{review}"</h1>
+
+                        <p className='m-2 text-left'>Rating:  {rating} </p>
                     </div>
                 </div>
             </div>

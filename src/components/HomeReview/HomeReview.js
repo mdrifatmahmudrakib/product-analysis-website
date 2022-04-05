@@ -11,8 +11,8 @@ const HomeReview = () => {
         Navigate("/reviews");
     };
     return (
-        <div className='mt-5'>
-            <h1>Our Customers speak for us</h1>
+        <div className='mt-5 drop-shadow-md'>
+            <h1 className='text-4xl font-bold'>Customers Reviews (3)</h1>
 
             <div className="grid grid-cols-3 gap-4">
                 {

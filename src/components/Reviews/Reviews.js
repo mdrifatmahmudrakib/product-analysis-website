@@ -5,8 +5,8 @@ import Review from '../Review/Review';
 const Reviews = () => {
     const [reviews] = Reviewdata();
     return (
-        <div className='mt-5'>
-            <h1>Our Customers Speak for Us</h1>
+        <div className='mt-6'>
+            <h1 className='text-4xl font-bold'>Our Customers Speak for Us</h1>
 
             <div className="grid grid-cols-3 gap-4">
                 {
